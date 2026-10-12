@@ -22,16 +22,6 @@
 #
 # DATA PRIVACY
 # The real pathology dataset must NOT be committed to the public repository.
-#
-# IMPORTANT
-# The original working file contained multiple exploratory GAM, GAMM, LOESS,
-# and linear-regression versions. This script keeps only the model specification
-# that matches the current Figure 2 legend and Methods:
-#   - separate model for each aeroallergen group
-#   - sex as a main effect
-#   - sex-specific smooth functions of age
-#   - binomial/logit model for Panel A
-#   - Gaussian model of log(sIgE) for Panel B
 # =============================================================================
 
 
