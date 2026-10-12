@@ -34,11 +34,7 @@
 #
 # DATA PRIVACY
 # Patient-level pathology data are NOT included in the public repository.
-#
-# NOTE
-# Earlier working code collapsed repeated records to one patient x allergen
-# observation. That does NOT match the current manuscript Table 2 footnote.
-# This cleaned script does not perform patient-level collapsing.
+
 # =============================================================================
 
 
