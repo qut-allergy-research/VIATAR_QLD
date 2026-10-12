@@ -44,7 +44,8 @@ Aeroallergens were grouped into the following major categories:
 Data preparation
 R/01_data_preparation.R
 Contains data-cleaning and preparation steps used to standardise sIgE values, demographic variables, allergen names, and aeroallergen-group classifications before statistical analysis.
-Figure 1 — Sensitisation frequency and sIgE levels
+
+#Figure 1 — Sensitisation frequency and sIgE levels
 R/02_figure1_sensitisation_frequency_sige_levels.R
 Examines overall differences in sensitisation frequency and sIgE concentrations across major aeroallergen groups.
 The analysis includes:
