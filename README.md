@@ -45,7 +45,7 @@ Data preparation
 R/01_data_preparation.R
 Contains data-cleaning and preparation steps used to standardise sIgE values, demographic variables, allergen names, and aeroallergen-group classifications before statistical analysis.
 
-#Figure 1 — Sensitisation frequency and sIgE levels
+## Figure 1 — Sensitisation frequency and sIgE levels
 R/02_figure1_sensitisation_frequency_sige_levels.R
 Examines overall differences in sensitisation frequency and sIgE concentrations across major aeroallergen groups.
 The analysis includes:
@@ -54,23 +54,26 @@ The analysis includes:
 - Kruskal–Wallis testing
 - Dunn post-hoc comparisons with Benjamini–Hochberg adjustment
 - Bar plots and violin plots with embedded boxplots
-Figure 2 — Age- and sex-specific patterns
+## Figure 2 — Age- and sex-specific patterns
 R/03_figure2_age_sex_GAMs.R
 Examines non-linear age- and sex-specific patterns in aeroallergen sensitisation frequency and sIgE concentrations using generalised additive models (GAMs).
 For sensitisation frequency, separate binomial GAMs with a logit link are fitted for each aeroallergen group to estimate the probability of a positive sIgE test across age in females and males.
 For sensitisation level, separate Gaussian GAMs are fitted to log-transformed sIgE concentrations among sensitised tests. Predictions and 95% confidence intervals are back-transformed to the original kU/L scale for presentation.
-Figure 3 — Geographic variation in aeroallergen sensitisation
+
+## Figure 3 — Geographic variation in aeroallergen sensitisation
 R/04_figure3_geospatial_EB_maps.R
 Characterises postcode-level geographic variation in aeroallergen sensitisation across Queensland using Empirical Bayes smoothing.
 Panel A estimates EB-smoothed sensitisation frequency for each aeroallergen group.
 Panel B estimates EB-smoothed geometric mean sIgE concentrations among positive tests after smoothing postcode-level mean log-transformed sIgE values and back-transforming the estimates to the original scale.
 A fixed prior weight of k = 20 is used for the displayed maps.
-Table 1 — Sensitisation combinations
+
+## Table 1 — Sensitisation combinations
 R/05_table1_sensitisation_combinations.R
 Identifies participant-level patterns of sensitisation across the seven aeroallergen groups.
 A participant is considered sensitised to an aeroallergen group if at least one sIgE result within that group is ≥0.35 kU/L.
 The script calculates the frequency and percentage of unique sensitisation combinations among participants with at least one positive aeroallergen group.
-Table 2 — Coastal proximity and aeroallergen sensitisation
+
+## Table 2 — Coastal proximity and aeroallergen sensitisation
 R/06_table2_coastal_proximity.R
 Examines variation in aeroallergen sensitisation according to residential coastal proximity:
 - <15 km
@@ -85,11 +88,15 @@ The script reports:
 - Overall group comparisons
 - Benjamini–Hochberg FDR correction
 - Bonferroni-adjusted pairwise comparisons
-Supplementary Table 1 — Sex-specific aeroallergen sensitisation
+
+
+## Supplementary Table 1 — Sex-specific aeroallergen sensitisation
 R/07_supp_table1_sex_specific_sensitisation.R
 Compares aeroallergen sensitisation frequencies between female and male sIgE test records among individuals aged ≥12 years.
 Female–male differences are assessed separately for individual allergens using chi-square or Fisher’s exact tests, with Benjamini–Hochberg correction for multiple comparisons.
-Supplementary Table 2 — Age-specific aeroallergen sensitisation
+
+
+## Supplementary Table 2 — Age-specific aeroallergen sensitisation
 R/08_supp_table2_age_specific_sensitisation.R
 Estimates aeroallergen sensitisation frequency across five age groups:
 - 12–17 years
@@ -98,9 +105,13 @@ Estimates aeroallergen sensitisation frequency across five age groups:
 - 45–64 years
 - ≥65 years
 Differences in sensitisation prevalence across age groups are assessed using chi-square tests, with Benjamini–Hochberg false discovery rate correction across allergens.
-Supplementary Table 3 — Urban and regional sensitisation
+
+
+## Supplementary Table 3 — Urban and regional sensitisation
 R/09_supp_table3_urban_regional.R
 Compares aeroallergen sensitisation frequencies between urban and regional Queensland at the sIgE test-record level.
+
+
 The analysis reports:
 - Number of tests
 - Number sensitised
