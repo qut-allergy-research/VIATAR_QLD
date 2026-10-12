@@ -39,7 +39,8 @@ Aeroallergens were grouped into the following major categories:
 - Cockroach
 
 
-Analysis scripts
+## Analysis scripts
+
 Data preparation
 R/01_data_preparation.R
 Contains data-cleaning and preparation steps used to standardise sIgE values, demographic variables, allergen names, and aeroallergen-group classifications before statistical analysis.
