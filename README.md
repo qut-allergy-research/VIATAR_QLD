@@ -39,24 +39,6 @@ Aeroallergens were grouped into the following major categories:
 - Cockroach
 
 
-## Repository structure
-
-```text
-VIATAR_QLD/
-├── README.md
-├── .gitignore
-└── R/
-    ├── 01_data_preparation.R
-    ├── 02_figure1_sensitisation_frequency_sige_levels.R
-    ├── 03_figure2_age_sex_GAMs.R
-    ├── 04_figure3_geospatial_EB_maps.R
-    ├── 05_table1_sensitisation_combinations.R
-    ├── 06_table2_coastal_proximity.R
-    ├── 07_supp_table1_sex_specific_sensitisation.R
-    ├── 08_supp_table2_age_specific_sensitisation.R
-    └── 09_supp_table3_urban_regional.R
-
-
 Analysis scripts
 Data preparation
 R/01_data_preparation.R
@@ -181,6 +163,25 @@ Key R packages used across the analyses include:
 Authors
 Sajjad Chamani
 Centre for Immunology and Infection Control
+
+## Repository structure
+
+```text
+VIATAR_QLD/
+├── README.md
+├── .gitignore
+└── R/
+    ├── 01_data_preparation.R
+    ├── 02_figure1_sensitisation_frequency_sige_levels.R
+    ├── 03_figure2_age_sex_GAMs.R
+    ├── 04_figure3_geospatial_EB_maps.R
+    ├── 05_table1_sensitisation_combinations.R
+    ├── 06_table2_coastal_proximity.R
+    ├── 07_supp_table1_sex_specific_sensitisation.R
+    ├── 08_supp_table2_age_specific_sensitisation.R
+    └── 09_supp_table3_urban_regional.R
+
+
 Queensland University of Technology
 Brisbane, Queensland, Australia
 Citation
