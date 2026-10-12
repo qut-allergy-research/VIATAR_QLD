@@ -15,8 +15,6 @@ Analyses examine variation in aeroallergen sensitisation according to allergen t
 
 This study is a retrospective cross-sectional analysis of de-identified diagnostic sIgE data from individuals aged ≥12 years in Queensland, Australia, collected between 2019 and 2025.
 
-The Queensland dataset included 744,946 eligible sIgE test records from 160,219 individuals.
-
 Aeroallergen sensitisation was defined as:
 
 **sIgE ≥0.35 kU/L**
@@ -173,9 +171,6 @@ Key R packages used across the analyses include:
 - purrr
 - RColorBrewer
 - patchwork
-Authors
-Sajjad Chamani
-Centre for Immunology and Infection Control
 
 ## Repository structure
 
@@ -194,7 +189,10 @@ VIATAR_QLD/
     ├── 08_supp_table2_age_specific_sensitisation.R
     └── 09_supp_table3_urban_regional.R
 
-
+##Authors
+Sajjad Chamani
+Allergy Research Group
+Centre for Immunology and Infection Control
 Queensland University of Technology
 Brisbane, Queensland, Australia
 Citation
